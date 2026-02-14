@@ -33,7 +33,6 @@ pipeline {
         always {
             echo 'This always runs, regardless of build status'
             // Example: clean workspace
-            cleanWs()
         }
     }
 }
